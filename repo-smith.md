@@ -122,6 +122,13 @@ exception during initialization.
 
 Type: `string`
 
+#### `initialization.steps[*].start-tag`
+
+Indicates that the current tag is the start tag for Git Mastery. Only read if
+`initialization.steps[*].type` is `tag`.
+
+Type: `bool`
+
 #### `initialization.steps[*].filename`
 
 Target file name. Only read if
